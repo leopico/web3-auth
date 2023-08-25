@@ -5,7 +5,7 @@ import { publicProvider } from "wagmi/providers/public";
 import { mainnet } from "wagmi/chains";
 
 import User from "./components/user";
-import SignIn from "./components/Signin";
+import SignIn from "./components/SignIn";
 
 const { publicClient, webSocketPublicClient } = configureChains(
   [mainnet],
